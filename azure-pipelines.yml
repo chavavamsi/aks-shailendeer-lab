@@ -9,24 +9,18 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: TerraformCLI@0
+- task: TerraformCLI@2
   displayName: Terraform Init
   inputs:
     command: 'init'
     allowTelemetryCollection: true
-
-- task: TerraformCLI@0
-  displayName: Terraform Plan
+- task: TerraformCLI@2
+  displayName: Terraform plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'youtube-app-service-connection'
+    environmentServiceName: 'Free Trial(594d1cb7-876d-4626-9e3c-b12503f6a3b8)'
     allowTelemetryCollection: false
 
-- task: TerraformCLI@0
-  displayName: Terraform Apply
-  inputs:
-    command: 'apply'
-    environmentServiceName: 'youtube-app-service-connection'
-    allowTelemetryCollection: true
+  
 
 
