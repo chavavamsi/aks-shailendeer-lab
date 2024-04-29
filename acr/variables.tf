@@ -1,7 +1,3 @@
-#  Resource Group Name
-variable "resource_group" {
-  type    = string
-}
 variable "keyvault_name" {
   type    = string
 }
