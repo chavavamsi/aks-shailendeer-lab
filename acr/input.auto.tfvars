@@ -1,0 +1,6 @@
+keyvault_rg = "aks-demo-rg"
+keyvault_name = "aks-demo6-key"
+clientidkvsecret = "spn-id"
+rg_name = "aks-democluster-rg"
+rg_location = "eastus"
+acrname = "demoaksacr0906"
