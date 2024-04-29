@@ -18,7 +18,7 @@ steps:
   displayName: Terraform plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'Free Trial(594d1cb7-876d-4626-9e3c-b12503f6a3b8)'
+    environmentServiceName: 'aks-deploy'
     allowTelemetryCollection: false
 
   
