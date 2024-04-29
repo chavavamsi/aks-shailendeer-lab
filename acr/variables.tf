@@ -1,7 +1,3 @@
-variable "azure_region" {
-  type    = string
-}
-
 #  Resource Group Name
 variable "resource_group" {
   type    = string
